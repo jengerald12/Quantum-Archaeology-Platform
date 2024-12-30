@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.quantum-nft]
+path = 'contracts/quantum-nft.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.research-management]
 path = 'contracts/research-management.clar'
 clarity_version = 2
